@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="position:relative;">
+    <div style="">
+        <div style ="position:absolute;"  class="blue-ball" id="sphere1"> </div>
+        
+            <button onclick="Move2()" type="button" class="type btn1">LEFT</button>
+            <button onclick="Movel()" type ="button" class="type btn1">RIGHT</button>
+    </div>
+
+    <div>
+        <div style="position:absolute;" id="sphere3" class="red-ball"> </div>
+        <button onclick="Move5()" type="button" class="type2 btn3">LEFT</button>
+        <button onclick="Move6()" type ="button" class="type2 btn3">RIGHT</button>
+
+    </div>
+
+    <div>
+     <div class="gold-ball" style="position:absolute;" id ="sphere2"> </div>
+     <button onclick="Move3()" type="button" class="type1 btn2">RIGHT</button>
+     <button onclick="Move4()" type ="button" class="type1 btn2">LEFT</button>
+    </div>
+    
+
+   <!--  <div class="green-ball"> </div>   -->
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+
+        function Move1() {
+        const img = document.getElementById('sphere1');
+        img.style.LEFT = `${img.offsetLEFT - 10}px`;
+        }
+
+
+    // function Movel() {
+    //     const sphere = document.getElementById('sphere1');
+    //     sphere.style.rIGHT = Number(sphere.style.rIGHT.slice(0,-2) + 10 + 'px');
+    // }
+
+
+
+
+
+
+    function A() {
+      document.getElementById('sphere1').style.display = "none";
+    }
+    </script>
+</body>
+<script src="script.js"></script>
+</html>
