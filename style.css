@@ -1,108 +1,118 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    position: relative;
+    overflow: hidden;
+}
+.top-left{
+    position: absolute;
+    left:2%;
+    top:3%;
+}
+.top-right{
+    position: absolute;
+    right:3%;
+    top:3%;
+}
+.bottom-left{
+    position: absolute;
+    bottom:3%;
+    left:3%;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 3%;
+    right:3%;
 }
 
 .blue-ball{
-     display: inline-block;  
-    /* float: left; */
+    overflow: hidden;
     width: 100px;
     height: 100px;
-    margin: 50px 0 0 60px;
+    margin-bottom: 20px;
     background-color: blue;
     border-radius: 50%;
     box-shadow:  -25px -25px 40px rgba(0, 0, 0, .7 )inset;
 }
 
 .red-ball{
-    display: inline-block;  
-    /* float: right;  */
+    overflow: hidden;
     width: 100px;
     height: 100px;
-    left: 40px;
-    top: 300px;
-    margin: 160px 0px 0  0;
     background-color: red;
     border-radius: 50%;
     box-shadow:  -25px -25px 40px rgba(0, 0, 0, .7 )inset;
 }
 
 .gold-ball{
-    display: inline-block;  
-    /* float: right; */
+    overflow: hidden;
     width: 100px;
     height: 100px;
-    right: 90px;
-    top: 20px;
-    margin: 40px 0px 0px 0px;
     background-color: gold;
     border-radius: 50%;
     box-shadow:  -25px -25px 40px rgba(0, 0, 0, .7 )inset;
 }
 
 .green-ball{
-    display: inline-block;
-    
-    top: 0;
-    float: right;
+    overflow: hidden;
     width: 100px;
     height: 100px;
-    margin: 475px 0px 0px 1180px;
     background-color: green;
     border-radius: 50%;
     box-shadow:  -25px -25px 40px rgba(0, 0, 0, .7 )inset;
 }
 
 
-/* 
-.left{
-    background-color: #ddd;
-    color: black;
-    position: relative;
-    border-radius: 20px;
-    
-}
-
-.Right{
-    background-color: aqua;
-    color: white;
-    border-radius: 20px;
-}*/
-
-
 /*THE BUTTON REGION */
 .type{
-    display: inline;
+    
     background-color: blueviolet;
     width: 100px;
     padding: 13px 26px;
     border-radius: 50px 20px;
-    margin: 160px 0 0 10px;
+   
     border: none;
 }
 .type2{
-    display: inline;
+    
     background-color: rgb(236, 80, 18);
+     
     width: 100px;
     padding: 13px 26px;
     border-radius: 50px 20px;
-    margin: 160px 0 0 10px;
+    margin-top: 10px;
     border: none;
 }
 
 
 .type1{
-    display: inline;
+  
     background-color: darkgoldenrod;
-    /* float: right; */
-    /* margin-right: 20px; */
+    margin-top: 10px;
     width: 100px;
     padding:14px 28px;
     border-radius: 50px 20px;
-    margin: 0px 10px 0 120;
+    
+    border: none;
+
+}
+
+.type3{
+  
+    background-color: greenyellow;
+    
+    width: 100px;
+    padding: 13px 26px;
+    border-radius: 50px 20px;
+    margin-top: 10px;
     border: none;
 }
+
 /* THE HOVER REGION */
 .btn1:hover{
     background-color: aquamarine;
@@ -116,5 +126,10 @@
 
 .btn3:hover{
     background-color:hotpink;
+    cursor: pointer;
+}
+
+.btn4:hover{
+    background-color: darkolivegreen;
     cursor: pointer;
 }
