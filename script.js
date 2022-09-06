@@ -14,6 +14,10 @@
 //         }
 //     }
 // }
+// var points = [43,22,223,46,664,43,3,22,45,6,5,44,33,4,3];
+// points.sort(function(a,b){return a-b});
+// document.getElementById('demo').innerHTML = points;
+
 
 
 

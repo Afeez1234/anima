@@ -5,7 +5,6 @@
 }
 
 .blue-ball{
-    /* position: absolute; */
      display: inline-block;  
     /* float: left; */
     width: 100px;
@@ -17,7 +16,6 @@
 }
 
 .red-ball{
-    /* position: absolute; */
     display: inline-block;  
     /* float: right;  */
     width: 100px;
@@ -31,9 +29,8 @@
 }
 
 .gold-ball{
-    /* position: absolute; */
     display: inline-block;  
-    float: right;
+    /* float: right; */
     width: 100px;
     height: 100px;
     right: 90px;
@@ -45,30 +42,20 @@
 }
 
 .green-ball{
-    /* display: inline-block; */
-    /* position: absolute; */
-    float: left;
+    display: inline-block;
+    
+    top: 0;
+    float: right;
     width: 100px;
     height: 100px;
-    margin: 400px 0px 0px 100px;
+    margin: 475px 0px 0px 1180px;
     background-color: green;
     border-radius: 50%;
     box-shadow:  -25px -25px 40px rgba(0, 0, 0, .7 )inset;
 }
 
 
-a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 15px 25px;
-    margin: 150px 0  0 20px;
-}
-
-a:hover{
-    background-color: lightcoral;
-    color: white;
-}
-
+/* 
 .left{
     background-color: #ddd;
     color: black;
@@ -81,9 +68,10 @@ a:hover{
     background-color: aqua;
     color: white;
     border-radius: 20px;
-    
-}
+}*/
 
+
+/*THE BUTTON REGION */
 .type{
     display: inline;
     background-color: blueviolet;
@@ -107,15 +95,15 @@ a:hover{
 .type1{
     display: inline;
     background-color: darkgoldenrod;
-    float: right;
-    margin-right: 20px;
+    /* float: right; */
+    /* margin-right: 20px; */
     width: 100px;
     padding:14px 28px;
     border-radius: 50px 20px;
-    margin: 20px 10px 0 120;
+    margin: 0px 10px 0 120;
     border: none;
 }
-
+/* THE HOVER REGION */
 .btn1:hover{
     background-color: aquamarine;
     cursor: pointer;
